@@ -4,7 +4,7 @@ import RepoList from "./RepoList.jsx";
 class Profile extends Component {
     render(){
         return (
-            <div className="panel panel-default">
+            <div className="panel panel-default" style={{'marginTop': '10px'}}>
               <div className="panel-heading">
                 <h3 className="panel-title">{this.props.userData.name}</h3>
               </div>
